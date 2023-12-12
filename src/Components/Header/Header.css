@@ -1,0 +1,35 @@
+.header-main {
+  display: block;
+  margin-top: 6rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.header-main .category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.category button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 1s;
+  justify-content: space-evenly;
+}
+.header-main .category button:hover {
+  background-color: darkorange;
+}
+.search input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 20%;
+}
