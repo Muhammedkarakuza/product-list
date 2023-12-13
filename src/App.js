@@ -1,9 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.scss";
+import "./App.css";
 import Header from "./Components/Header/Header";
+import ProductCard from "./Components/ProductCard/ProductCard";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <ProductCard />
+    </>
+  );
 }
 
 export default App;
